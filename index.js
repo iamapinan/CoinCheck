@@ -3,7 +3,7 @@ const { URLSearchParams } = require('url');
  
 
 var url = 'https://api.bitkub.com/api/market/ticker';
-var token = 't8ZmtNfbwoeTqA0PXOq4fyn6geIHiqwZ2OC6GTREaHs'
+var token = ''
 fetch(url)
 .then(res => res.json())
 .then(res => {
